@@ -1,0 +1,12 @@
+#charrset "utf-8"
+body{
+background-color: lightblue;
+
+}
+h1{
+    color: blue;
+    background-color: aliceblue;
+}
+h2{
+    color: red;
+}

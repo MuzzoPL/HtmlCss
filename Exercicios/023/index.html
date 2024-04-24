@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>links</title>
+        <style>
+/*
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children     
+*/
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            a{
+                color:red ;
+                text-decoration: none;
+            }
+            a:hover{
+             color: black;
+             text-decoration: underline;   
+            }
+            a:active{
+                color: yellow;
+            }
+            a:visited{
+                color: blue
+            }
+            a:visited{
+                display: initial;
+            }
+            a::after{
+                content: "[html]" ;
+                text-decoration: none;
+                font-weight: bold;
+                color: lightgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <H1>PERSONALIZANDO LINKS</H1>
+        <ul>
+            <li><a href="https://youtube.com" target="_blank">link 1</a></li>
+            <li><a href="https://facebook.com">link 2</a></li>
+            <li><a href="teste">link 3</a></li>
+        </ul>
+    </body>
+</html>
