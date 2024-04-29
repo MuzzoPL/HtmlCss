@@ -3,28 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundo fixo de tela</title>
     <style>
+        /* *{
+            border: 1px solid greenyellow;
+            padding: 0px;
+            margin: 0px
+        } */
         body{
             background-color: black;
-            background-image: url(Imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-image: url(Imagens/wallpaper003.jpg);
+            background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
             /* background-size: contain; */
-        }
+            background-attachment: fixed;
+            position: absolute;
+            background-size: cover;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+        }    
         main{
             background-color: white;
+            padding:15px;
+            height: 1000px;
+            width: 1000px;
+            display: flex;
+            
+        }
+        div{
+         background-color: lightblue;
             border: 1px solid black;
             border-radius:15px;
             width: 400px;
             padding: 40px;
-            margin: auto;
+            height: 400px;
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            display: flex;
+            
+            /* left e top só funcionam se o conteiner mãe estiver com "position absolute" */
         }
     </style>
 </head>
 <body>
     <main>
+    <div>
         <h1>
             Teste de imagem de fundo
         </h1>
@@ -32,8 +59,8 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eius eaque maxime dolor? Unde ullam assumenda quos sapiente temporibus eum beatae quia veritatis quidem aperiam! Reprehenderit ratione fuga minima adipisci!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit qui repellendus, nam ea ipsam neque eum rerum iure autem sapiente ipsum impedit porro enim laboriosam consequatur molestias. Magni, corporis numquam.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, adipisci deserunt dolores minima pariatur illo expedita qui debitis enim saepe praesentium veritatis similique aliquid et earum distinctio, aspernatur assumenda corrupti.
-        </p>
-    </main>
-    
+        </p>     
+    </div>
+</main>
 </body>
 </html>
