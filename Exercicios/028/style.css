@@ -1,0 +1,39 @@
+.carousel {
+    position: relative;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%; /* Each item takes the full width */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Make sure images fill their containers */
+    height: auto;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
