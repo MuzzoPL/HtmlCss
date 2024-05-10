@@ -20,7 +20,6 @@
     
 }
 body img{
-    margin-top: 0px;
 }
 header{
     background-image: linear-gradient(to right, #e0e0e0,#797979a1 );
@@ -29,7 +28,6 @@ header{
     width: 100%;
     max-width: 100%;
     height: 75px;
-    
 }
 nav{
     
@@ -52,6 +50,53 @@ nav{
     font-size: 22px;
     transition-duration: 0.25s;
 }
+.slider{
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+.slider-content{
+    display: flex;
+
+
+}
+.nav-manual, .nav-auto{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25%;
+
+}
+#radio1{
+    color: rgb(89, 0, 255);
+
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid cyan ;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.nav-manual .manual-btn:not(:last-child) , .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+.nav-manual .manual-btn:hover{
+    background-color: rgba(0, 255, 255, 0.568);
+
+}
+input{
+    display: none;
+
+}
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: cyan;
+}
+.nav-manual input{
+    display: none;
+}
 main{
     background-color: rgba(255, 255, 255, 0.774);
     margin: auto;
@@ -61,11 +106,8 @@ main{
     max-width: 70%;
     padding: 10px;
 
-
-
 }
-#fr{
-    background-image: url(Imagens/exemplo.png);
+.fr{
     background-size: cover;
     background-repeat: no-repeat;
     height: 380px;
@@ -76,7 +118,7 @@ main{
     border-radius: 15px;
 
 }
-#frt{
+.frt{
     text-align: right;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -85,17 +127,14 @@ main{
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.479);
 
 }
-section{
+section.casess{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
 img{
     display: block;
     margin: auto;
-    
-    
 }
 footer{
     background-color: black;
