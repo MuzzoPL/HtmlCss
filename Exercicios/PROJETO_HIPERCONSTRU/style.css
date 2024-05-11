@@ -81,6 +81,7 @@ header{
     border-radius: 10px;
     max-height: 400px;
     background-size:cover;
+    position: center;
     
 }
 .slide-box img{
