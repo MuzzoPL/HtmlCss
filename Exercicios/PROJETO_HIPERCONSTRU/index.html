@@ -1,98 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ImperConstruEngenharia</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImperConstruEngenharia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slide.js" defer></script>  
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img class="desc" src="Imagens/Logo transparente .png" alt="logo ImperConstruEngenharia">
+            <div id="nav">
+                <a href="">home</a><hr>
+                <a href="">Empresa</a><hr>
+                <a href="">Produto</a><hr>
+                <a href="">Galeria</a><hr>
+                <a href="" target="_blank" hr class="wap">Contato</a><hr>
+            </div>
+        </nav>
         
-        <header>
-                <nav>
-                    <h1 class="desc"> Logo ImperConstru</h1>
-                    <div id="nav">
-                        <a href="">Home</a><hr>
-                        <a href="">Empresa</a><hr>
-                        <a href="">Produto</a><hr>
-                        <a href="">Galeria</a><hr>
-                        <a href="" target="_blank"hr class="wap">Contato</a><hr>
-                    </div>
-                </nav>
-                <script src="slide.js" defer></script>
-        </header> 
+    </header>
 
-        <div class="back">
-        <main>  
+    <div class="back">
+        <main>
             <section class="slider">
-                <div class="fr" class="slider-content">
-                    
-                    <input type="radio" name="radio-btg" id="radio1">
-                    <input type="radio" name="radio-btg" id="radio2">
-                    <input type="radio" name="radio-btg" id="radio3">
+                <div class="slider-content fr">
 
-                  <div id="slide-box primeiro">
-                    <img class="fr" src="Imagens/exemplo.png" alt="foto1">
-                  </div>
-                  <div id="slide-box">
-                    <img class="fr" src="Imagens/exemplo.png" alt="foto2">
-                  </div>
-                  <div id="slide-box">
-                    <img class="fr" src="Imagens/exemplo.png" alt="foto2">
-                  </div>
-                  <div class="nav-auto">
+                    <input type="radio" name="btn-radio" id="radio1">
+                    <input type="radio" name="btn-radio" id="radio2">
+                    <input type="radio" name="btn-radio" id="radio3">
+
+                    <div  class="slide-box primeiro">
+                        <video src="Imagens/teste.mp4" autoplay loop muted controls></video>
+                        <h1 class="titulo">TITULO TESTE DE IMAGEM 1</h1>
+                    </div>
+                    <div  class="slide-box">
+                        <video src="Imagens/fibra.mp4" autoplay loop muted controls></video>
+                        <h1 class="titulo">TITULO TESTE DE IMAGEM 2</h1>
+                    </div>
+                    <div  class="slide-box">
+                        <video src="Imagens/Carrosel.mp4" autoplay loop muted controls></video>
+                        <h1 class="titulo">TITULO TESTE DE IMAGEM 3</h1>
+                    </div>
+
+                    <div class="nav-auto">
                         <div class="auto-btn1"></div>
                         <div class="auto-btn2"></div>
                         <div class="auto-btn3"></div>
-                  </div>
-                  <div class="nav-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                  </div>
-
-                    <div class="frt">
-                        <h1>Descrição da foto: Nome do cliente finalizado</h1>
-                        <h2>Titulo do trabalho feito</h2>
                     </div>
-                 </div> 
+                    
+                    <div class="nav-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                    <div class="nav-arrows">
+                        <div class="arrow left-arrow">&#10094;</div>
+                        <div class="arrow right-arrow">&#10095;</div>
+                    </div>
+                </div>
             </section>
-             <section class="casess">
+            <section class="casess">
                 <div class="div">
                     <img src="Imagens/case.png" alt="imagem">
-                
-                <div class="caixa-tx">                        
-                    <h1>Obras</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam et doloremque neque tempore distinctio aperiam consectetur labore vero, adipisci enim laboriosam quam, assumenda soluta nam accusantium culpa ipsam qui eos!</p>
-                </div>
-                
+
+                    <div class="caixa-tx">
+                        <h1 class="titcase">Obras</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam et doloremque neque tempore distinctio aperiam consectetur labore vero, adipisci enim laboriosam quam, assumenda soluta nam accusantium culpa ipsam qui eos!</p>
+                    </div>
+
                 </div>
                 <hr>
                 <div class="div">
                     <img src="Imagens/case.png" alt="imagem">
-                
-                <div class="caixa-tx">                        
-                    <h1>Destaque</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam et doloremque neque tempore distinctio aperiam consectetur labore vero, adipisci enim laboriosam quam, assumenda soluta nam accusantium culpa ipsam qui eos!</p>
-                </div>
-                
+
+                    <div class="caixa-tx">
+                        <h1 class="titcase">Destaque</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam et doloremque neque tempore distinctio aperiam consectetur labore vero, adipisci enim laboriosam quam, assumenda soluta nam accusantium culpa ipsam qui eos!</p>
+                    </div>
+
                 </div>
                 <hr>
                 <div class="div">
                     <img src="Imagens/case.png" alt="imagem">
-                
-                <div class="caixa-tx">                        
-                    <h1>Case</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam et doloremque neque tempore distinctio aperiam consectetur labore vero, adipisci enim laboriosam quam, assumenda soluta nam accusantium culpa ipsam qui eos!</p>
-                </div>
-                
+
+                    <div class="caixa-tx">
+                        <h1 class="titcase">Case</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam et doloremque neque tempore distinctio aperiam consectetur labore vero, adipisci enim laboriosam quam, assumenda soluta nam accusantium culpa ipsam qui eos!</p>
+                    </div>
+
                 </div>
             </section>
             <h3>Endereço, Rua, Logradouro numero, telefone de contato</h3>
         </main>
         <footer>
-            Desenvolvido pelo Eduardo Muzzo - System n' Software
-        </footer> 
+            Desenvolvido por Eduardo Muzzo - System n' Software
+        </footer>
     </div>
-    </body>
+</body>
 </html>

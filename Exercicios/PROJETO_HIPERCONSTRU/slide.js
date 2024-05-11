@@ -17,3 +17,19 @@ function proximaImg(){
     }
     document.getElementById('radio'+cont).checked = true
 }
+// Adiciona funcionalidade às setas
+document.querySelector('.left-arrow').addEventListener('click', () => {
+    cont--;
+    if (cont < 1) {
+        cont = 3;
+    }
+    document.getElementById('radio' + cont).checked = true;
+});
+
+document.querySelector('.right-arrow').addEventListener('click', () => {
+    cont++;
+    if (cont > 3) {
+        cont = 1;
+    }
+    document.getElementById('radio' + cont).checked = true;
+});
