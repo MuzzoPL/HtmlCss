@@ -8,8 +8,9 @@
 *{
     padding: 0px;
     margin: 0px;  
-    /* border: 1px solid greenyellow;} */
+    /* border: 1px solid greenyellow; */
 }
+    
 .desc{
     margin: 0 auto;
     padding: 0;
@@ -30,8 +31,8 @@ header{
     padding-top: 10px;
     text-align: center;
     width: 100%;
+    
     max-width: 100%;
-    height: 170px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548);
     margin-bottom: 10px;
 }
@@ -41,6 +42,7 @@ header{
     justify-content: center;
     justify-content: space-evenly; 
     padding-top: 10px;
+    height: 35px;
 
 }
 #nav>a:hover{
@@ -51,7 +53,7 @@ header{
     text-decoration: none;
     color: inherit;
     font-size: 22px;
-    transition-duration: 0.25s;
+    transition-duration: 0.2s;
 } 
 .slider{
     margin: 0 auto;
@@ -79,13 +81,14 @@ header{
     text-align: center;
     transition: 2s;
     border-radius: 10px;
-    max-height: 400px;
+    max-height: 520px;
     background-size:cover;
-    position: center;
-    
+    position: center center;    
 }
-.slide-box img{
-    width: 100%;
+
+.slide-box video{
+    width: 99vw;
+    align-self: center;
 }
 .nav-manual,.nav-auto{
     position: absolute;
@@ -117,18 +120,18 @@ header{
     transform: translateY(-50%);
     width: 100%;
     display: flex;
-    z-index: 1; /* Coloca as setas acima dos slides */
+    z-index: 1px; /* Coloca as setas acima dos slides */
     left: 0%;
     justify-content: center;
 }
 .left-arrow {
-    margin-right: 33%; /* Espaço entre a seta esquerda e a seta direita */
+    margin-right: 40vw; /* Espaço entre a seta esquerda e a seta direita */
     border-radius:  50% 20% 20% 50%;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.658));
 }
 
 .right-arrow {
-    margin-left: 33%; /* Espaço entre a seta direita e a seta esquerda */
+    margin-left: 40vw; /* Espaço entre a seta direita e a seta esquerda */
     border-radius:  20% 50% 50% 20%;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.658));
 }
@@ -161,7 +164,7 @@ main{
     margin: auto;
     border-radius: 25px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
-    min-width: 380px;
+    min-width: 85vw;
     max-width: 70%;
     padding: 10px;  
 
@@ -223,4 +226,15 @@ h3{
 }
 .titcase{
     margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.lm{
+    color: rgb(82, 201, 231);
+    border: 1px solid;
+    width: 60px;
+    padding: 6px;
+    border-radius: 30px;
 }
