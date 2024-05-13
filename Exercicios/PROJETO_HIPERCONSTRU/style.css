@@ -63,6 +63,7 @@ header{
     overflow: hidden;
     background-size: cover;
     border-radius: 15px;
+    border: 2px solid black;
 }
 .slider-content{
     width: 400%; /* 3 slides */
@@ -70,9 +71,11 @@ header{
     display: flex;
     border-radius: 10px;
     transition: transform 2s ease; /* Use transition on transform property */
+    
 }
 .slider-content input{
     display: none;
+    
 }
 .slide-box{
     width: 25%;
@@ -84,6 +87,7 @@ header{
     max-height: 520px;
     background-size:cover;
     position: center center;    
+    
 }
 
 .slide-box video{
@@ -164,9 +168,9 @@ main{
     margin: auto;
     border-radius: 25px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
-    min-width: 85vw;
-    max-width: 70%;
-    padding: 10px;
+    min-width: 65vw;
+    max-width: 84vw;
+    padding: 20px;
     min-height: 100vh; 
 
 }
@@ -241,4 +245,67 @@ a{
     width: 60px;
     padding: 6px;
     border-radius: 30px;
+}
+.txt{
+    color: rgba(0, 0, 0, 0.836);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.212);
+}
+.box-text{
+    border: 2px solid rgba(0, 0, 0, 0.466);
+    padding: 20px;
+    border-radius: 15px 15px 10px 10px;
+}
+h4{
+    color: white;
+    background-color: rgb(53, 51, 51);
+    border-radius: 15px 15px 00px 00px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: -21px;
+    margin-left: -21px;
+    margin-right: -21px;
+    font-size: 25px;
+}
+h5{
+    font-size: 21px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+main>p {
+    text-indent: 2em;
+    text-align: justify;
+    
+}
+ul{
+    margin-left: 40px;
+}
+h2{
+    background-image: linear-gradient(to right,gray,white 60%);
+    color: white;
+    padding: 4px; 
+    
+}
+.link{
+    text-decoration:underline;
+    color:black;
+    font-weight: bold;
+}
+.ph{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.ph img{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
+}
+.ph img:not(:last-child){
+    margin-right: 15px;
+    
 }
