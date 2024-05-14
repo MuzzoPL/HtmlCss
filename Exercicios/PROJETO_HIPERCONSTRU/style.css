@@ -284,6 +284,8 @@ h2{
     background-image: linear-gradient(to right,gray,white 60%);
     color: white;
     padding: 4px; 
+    font-size: 38px;
+    border-radius: 10px;
     
 }
 .link{
@@ -305,8 +307,20 @@ h2{
     border-radius: 15px;
     margin-top: 15px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.199);
+    
 }
-.ph img:not(:last-child){
+.ph img{
     margin-right: 15px;
     
+}
+.fotow{
+    max-width: 30%;
+    min-width: 22%;
+    transition: 0.5s;
+    opacity: 100%;
+    
+}
+.fotow:hover{
+    transform: scale(140%);
+    opacity: 100%;
 }
